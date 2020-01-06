@@ -1,0 +1,9 @@
+
+<h3>Click on a location see weather on the Sää tab</h3>
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom" style="height:92vh" (mapClick)="mapClicked($event)">
+</agm-map>
+<p>
+    Latitude: {{lat}}<br>
+    Longitude: {{lng}}
+    {{message}}
+</p>
